@@ -5,7 +5,7 @@ What is NV_Monitor?
 
 NV_Monitor is a local web-based monitoring tool for NVIDIA GPUs. It provides real-time monitoring of multiple NVIDIA GPUs on your system through an intuitive web interface, making it easy to track GPU performance and utilization from any browser.
 
-![NV_Monitor interface](/screenshot/NV_Monitor.png)
+![NV_Monitor interface](/screenshot/nv_monitor.jpg)
 
 Table of Contents
 ----------------

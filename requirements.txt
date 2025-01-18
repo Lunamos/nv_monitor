@@ -1,0 +1,7 @@
+dash==2.14.1
+dash-bootstrap-components==1.5.0
+fastapi==0.104.1
+uvicorn==0.24.0
+websockets==12.0
+plotly==5.18.0
+pynvml==11.5.0

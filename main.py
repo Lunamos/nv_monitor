@@ -8,7 +8,7 @@ def run_dashboard():
     dash_app.app.run_server(host='0.0.0.0', port=8050, debug=True)
 
 def run_websocket():
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8080)
 
 if __name__ == "__main__":
     dashboard_process = multiprocessing.Process(target=run_dashboard)

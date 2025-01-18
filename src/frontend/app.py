@@ -30,7 +30,7 @@ class DashApp:
                 dbc.Container([
                     html.A(
                         dbc.Row([
-                            dbc.Col(html.H3("InfPlane", className="ms-2 text-white")),
+                            dbc.Col(html.H3("NV Monitor", className="ms-2 text-white")),
                         ]),
                         href="/",
                         style={"textDecoration": "none"},
@@ -157,7 +157,7 @@ class DashApp:
             return html.Div(gpu_info), *figures
             
     async def websocket_client(self):
-        uri = "ws://localhost:8000/ws"
+        uri = "ws://localhost:8080/ws"
         while True:
             try:
                 async with websockets.connect(uri) as websocket:
